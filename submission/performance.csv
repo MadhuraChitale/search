@@ -1,0 +1,29 @@
+maze,problem,strategy,steps,cost,nodes,median_ms,peak_kib
+tinyMaze,Position,DFS,10,10,15,0.074,3.93
+tinyMaze,Position,BFS,8,8,15,0.071,3.85
+tinyMaze,Position,UCS,8,8,15,0.077,4.2
+tinyMaze,Position,A* Manhattan,8,8,14,0.083,4.22
+mediumMaze,Position,DFS,130,130,146,0.581,30.89
+mediumMaze,Position,BFS,68,68,269,0.974,38.95
+mediumMaze,Position,UCS,68,68,269,1.106,41.08
+mediumMaze,Position,A* Manhattan,68,68,221,0.997,38.55
+bigMaze,Position,DFS,210,210,390,1.581,116.82
+bigMaze,Position,BFS,210,210,620,2.452,103.26
+bigMaze,Position,UCS,210,210,620,2.657,90.11
+bigMaze,Position,A* Manhattan,210,210,549,2.714,88.81
+openMaze,Position,DFS,298,298,576,3.229,562.52
+openMaze,Position,BFS,54,54,682,2.642,99.49
+openMaze,Position,UCS,54,54,682,3.106,123.12
+openMaze,Position,A* Manhattan,54,54,535,2.466,85.63
+tinyCorners,Corners,BFS,28,28,252,1.419,85.07
+tinyCorners,Corners,A* corners,28,28,159,3.009,84.34
+mediumCorners,Corners,BFS,106,106,1966,11.189,678.29
+mediumCorners,Corners,A* corners,106,106,741,19.303,317.91
+testSearch,Food,UCS,7,7,14,0.419,16.75
+testSearch,Food,A* food MST,7,7,7,0.285,13.08
+tinySearch,Food,UCS,27,27,5057,219.103,8400.16
+tinySearch,Food,A* food MST,27,27,89,5.945,264.44
+trickySearch,Food,UCS,60,60,16688,1485.511,48296.31
+trickySearch,Food,A* food MST,60,60,255,30.424,1065.58
+mediumDottedMaze,Position,UCS east,74,1.000976583804004,186,0.987,41.12
+mediumScaryMaze,Position,UCS west,92,68719479864,108,0.609,30.14
